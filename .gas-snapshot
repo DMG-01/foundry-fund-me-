@@ -1,0 +1,8 @@
+fundMeTest:testFundFailWithoutEnoughEther() (gas: 23292)
+fundMeTest:testFundUpdatesDataStructure() (gas: 99804)
+fundMeTest:testFundersToArrayOfFunders() (gas: 100175)
+fundMeTest:testMinimumUsdIsFive() (gas: 5631)
+fundMeTest:testOwnerIsMsgSedner() (gas: 5704)
+fundMeTest:testWithMultipleFunders() (gas: 540207)
+fundMeTest:testWithdrawWithASingleFunder() (gas: 84957)
+fundMeTest:testfundMeVersionIsWorking() (gas: 11002)
