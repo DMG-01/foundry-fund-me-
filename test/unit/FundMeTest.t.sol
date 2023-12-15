@@ -25,7 +25,7 @@ contract FundMeTest is StdCheats, Test {
     function setUp() external {
         DeployFundMe deployer = new DeployFundMe();
         (fundMe, helperConfig )= deployer.run();
-        vm.deal(USER, STARTING_USER_BALANCE);
+        vm.deal(USER, STARTING_USER_BALANCE);// USE TO CREAT AN ADRESS WITH MONEY
     }
 
     function testPriceFeedSetCorrectly() public {
